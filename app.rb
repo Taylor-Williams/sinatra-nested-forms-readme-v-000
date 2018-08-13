@@ -1,7 +1,7 @@
 class App < Sinatra::Base
 
   get '/' do
-    erb :index
+    erb :new
   end
 
   post '/student' do
